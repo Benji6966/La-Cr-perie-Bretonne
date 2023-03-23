@@ -51,7 +51,12 @@ nav ul li:hover > ul {
     display: flex;
     gap: 50px;
     flex-direction: column;
-    padding-bottom: 112px;
+    padding-bottom: 70px;
+}
+.phone {
+    font-weight: bolder;
+    font-size: 23px;
+    text-decoration: underline;
 }
 .title {
     color: rgb(51, 200, 200);
@@ -91,6 +96,11 @@ nav ul li:hover > ul {
 }
 .time-elements a:hover {
     color: rgb(51, 200, 200);
+}
+.social {
+    display: flex;
+    align-self: center;
+    padding-top: 50px;
 }
 
 /*left*/

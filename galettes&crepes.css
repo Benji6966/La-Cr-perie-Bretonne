@@ -16,12 +16,18 @@ body, html {
 }
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-image: url(images/background/galettes-background.png);
+
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto;
     display: grid;
     grid-template-columns: auto 1fr;
+}
+.background-crepes {
+    background-image:url(images/background/crêpes-background.png) ;
+}
+.background-galettes {
+    background-image: url(images/background/galettes-background.png);
 }
 /*main-galettes*/
 /*galettes*/
