@@ -19,6 +19,7 @@ body {
     background-image: url(images/background/dinner-room-background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     overflow: auto;
     display: grid;
     grid-template-columns: auto 600px 1fr;

@@ -25,9 +25,11 @@ body {
 }
 .background-crepes {
     background-image:url(images/background/crêpes-background.png) ;
+    background-position: center;
 }
 .background-galettes {
     background-image: url(images/background/galettes-background.png);
+    background-position: center;
 }
 /*main-galettes*/
 /*galettes*/
