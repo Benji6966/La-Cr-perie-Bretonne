@@ -1,0 +1,8 @@
+-modify button "je réserve une table !"
+-modify button "phone"
+-modify display "info pratiques"
+-modify display page "menus" bug list
+-modify display page "galettes" and child
+-modify display page "crepes" and child
+-modify button  "facebook"
+

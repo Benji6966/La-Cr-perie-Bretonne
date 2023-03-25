@@ -7,7 +7,13 @@ class WebsiteNav extends HTMLElement {
               <li><a id="main-link" href="#">La carte <i class="fa-solid fa-bars"></i></a>
                   <ul>
                       <li><a href="galettes.html">Galettes</a></li>
-                      <li><a href="crepes.html">Crêpes</a></li>
+                      <li><a href="crepes.html">Crêpes</a>
+                          <ul>
+                              <li><a href="crepes-groumandes.html">Crêpes gourmandes</a></li>
+                              <li><a href="crepes-givrees.html">Crêpes givrées</a></li>
+                              <li><a href="crepes-allumees.html">Crêpes allumées</a></li>
+                          </ul>
+                      </li>
                       <li><a href="menu.html">Menus</a></li>
                   </ul>
               </li>
@@ -59,10 +65,11 @@ class WebsiteNav extends HTMLElement {
       </div>
       <div class="social">
           <a href="https://www.facebook.com/lacreperievillefranche/" target="_blank" >
-            <i class="fa-brands fa-facebook fa-2xl" style="color: #33c8c8;"></i>
+              <i class="fa-brands fa-facebook" style="color: #33c8c8;"></i>
           </a>
       </div>
-  </div>`;
+  </div>
+  `;
     }
 }
 

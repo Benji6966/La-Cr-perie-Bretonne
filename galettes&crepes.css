@@ -23,15 +23,29 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
 }
+/*main-galettes*/
+/*common*/
 .background-crepes {
-    background-image:url(images/background/crêpes-background.png) ;
+    background-image:url(images/background/crepes-background.png) ;
+    background-position: center;
+}
+.background-crepes-allumees {
+    background-image: url(images/background/crepes-allumees-background.png);
+    background-position: center;
+}
+.background-crepes-gourmandes {
+    background-image: url(images/background/crepes-gourmandes-background.png);
+    background-position: center;
+}
+.background-crepes-givrees {
+    background-image: url(images/background/crepes-givrees-background.png);
     background-position: center;
 }
 .background-galettes {
     background-image: url(images/background/galettes-background.png);
     background-position: center;
 }
-/*main-galettes*/
+/*common*/
 /*galettes*/
 .galettes-page {
     overflow: auto;
